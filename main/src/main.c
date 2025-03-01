@@ -77,7 +77,8 @@ int main(int argc, char **argv)
 
   #if LV_USE_OS == LV_OS_NONE
  
-  lv_demo_widgets();
+  // lv_demo_widgets();
+  lv_example_image();
 
   while(1) {
     /* Periodically call the lv_task handler.
